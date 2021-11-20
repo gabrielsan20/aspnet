@@ -1,0 +1,32 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background-color: #f7dbff;
+}
+
+.searchbox {
+    display: flex;
+    align-items:flex-end;
+}
+
+table {
+    border-top-color: #373636;
+}
+
+td{
+    border-color: gray;
+}
